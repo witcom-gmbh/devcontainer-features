@@ -1,0 +1,21 @@
+{
+    "name": "Cocogitto",
+    "id": "cocogitto",
+    "version": "0.0.1",
+    "description": "Cocogitto is a CLI and GitOps toolbox for the Conventional Commits and Semver specifications.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of cocogitto to install"
+        },
+        "skipTls": {
+            "type": "boolean",
+            "default": true,
+            "description": "Should the installer skip certificate-checks when downloading packages ?"
+        }        
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
