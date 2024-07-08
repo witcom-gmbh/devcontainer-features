@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+pip config set global.trusted-host  "pypi.org files.pythonhosted.org pypi.python.org" --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org
+npm config -g set strict-ssl false

@@ -1,5 +1,7 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
+    "build":{
+            "dockerfile": "Dockerfile"
+    },
     "customizations": {
         "vscode": {
             "settings": {
@@ -21,5 +23,6 @@
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "remoteUser": "node",
+    "onCreateCommand": [".devcontainer/create"],
     "updateContentCommand": "npm install -g @devcontainers/cli"
 }
