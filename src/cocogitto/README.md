@@ -7,9 +7,7 @@ Cocogitto is a CLI and GitOps toolbox for the Conventional Commits and Semver sp
 
 ```json
 "features": {
-    "ghcr.io/witcom-gmbh/devcontainer-features/cocogitto:1": {
-        "version": "latest"
-    }
+    "ghcr.io/witcom-gmbh/devcontainer-features/cocogitto:0": {}
 }
 ```
 
@@ -17,10 +15,11 @@ Cocogitto is a CLI and GitOps toolbox for the Conventional Commits and Semver sp
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+| version | Version of cocogitto to install | string | latest |
+| skipTls | Should the installer skip certificate-checks when downloading packages ? | boolean | true |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/witcom-gmbh/devcontainer-features/blob/main/src/cocogitto/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
