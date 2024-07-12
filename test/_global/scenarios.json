@@ -2,7 +2,8 @@
     "all-tools": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "cocogitto": {}
+            "cocogitto": {},
+            "helmdocs": {}
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+    "helm-docs-specific-version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "helmdocs": {
+                "version": "1.14.0"
+            }
+        }
+    }
+}

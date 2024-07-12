@@ -1,0 +1,23 @@
+{
+    "name": "helm-docs (via Github Releases)",
+    "id": "helmdocs",
+    "version": "0.0.1",
+    "documentationURL": "https://github.com/norwoodj/helm-docs",
+    "description": "The helm-docs tool auto-generates documentation from helm charts into markdown files.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of helm-docs to install"
+        }
+        ,
+        "skipTls": {
+            "type": "boolean",
+            "default": true,
+            "description": "Should the installer skip certificate-checks when downloading packages ?"
+        }        
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
