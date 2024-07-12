@@ -1,13 +1,13 @@
 
-# Cocogitto (cocogitto)
+# helm-docs (via Github Releases) (helmdocs)
 
-Cocogitto is a CLI and GitOps toolbox for the Conventional Commits and Semver specifications.
+The helm-docs tool auto-generates documentation from helm charts into markdown files.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/witcom-gmbh/devcontainer-features/cocogitto:0": {}
+    "ghcr.io/witcom-gmbh/devcontainer-features/helmdocs:0": {}
 }
 ```
 
@@ -15,11 +15,11 @@ Cocogitto is a CLI and GitOps toolbox for the Conventional Commits and Semver sp
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of cocogitto to install | string | latest |
+| version | Version of helm-docs to install | string | latest |
 | skipTls | Should the installer skip certificate-checks when downloading packages ? | boolean | true |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/witcom-gmbh/devcontainer-features/blob/main/src/cocogitto/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/witcom-gmbh/devcontainer-features/blob/main/src/helmdocs/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
