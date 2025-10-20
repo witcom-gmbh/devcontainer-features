@@ -1,0 +1,29 @@
+{
+    "chezmoi-specific-version-without-prefix": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "chezmoi": {
+                "version": "2.27.3",
+                "skipTls": true
+            }
+        }
+    },
+    "chezmoi-specific-version-with-prefix": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "chezmoi": {
+                "version": "v2.27.3",
+                "skipTls": true
+            }
+        }
+    },
+    "chezmoi-specific-version-with-new-checksum-file": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "chezmoi": {
+                "version": "v2.66.1",
+                "skipTls": true
+            }
+        }
+    }
+}
